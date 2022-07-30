@@ -1,5 +1,3 @@
-> **⚠ WARNING: This package is not released yet.**  
-
 # Laravel Rabbitmq Queue Driver
 This is the queue driver package for the Laravel framework to help you to queue jobs on [RabbitMQ](https://www.rabbitmq.com). Now queue jobs with RabbitMQ fast and easy :)
 
