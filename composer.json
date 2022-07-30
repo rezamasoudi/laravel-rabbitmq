@@ -1,0 +1,28 @@
+{
+    "name": "masoudi/laravel-rabbitmq",
+    "description": "The Laravel queue driver for the RabbitMQ",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Masoudi\\Rabbitmq\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Masoudi",
+            "email": "dev.masoudi@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "orchestra/testbench": "^6.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Masoudi\\Rabbitmq\\RabbitmqServiceProvider"
+            ]
+        }
+    }
+}
